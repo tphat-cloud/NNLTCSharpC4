@@ -1,0 +1,173 @@
+pages 4
+
+===== PAGE 1 =====
+ Lập trình hướng đối tượng trong C#  - 1 - 
+ 
+© DNTAI 2024
+LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG TRONG C# 
+1. Thiết kế lớp cơ bản 
+• Hiểu các thành phần trong lớp: Field, Constructor (default, copy, parameter), Property, Method 
+• Đa năng toán tử 
+• Phương thức tĩnh 
+• Thiết kế và xây dựng lớp đơn giản để giải một số bài toán 
+ 
+Xây dựng các lớp có đầy đủ các thành phần: Field, Constructor, Property, Method  
+Bài 1.1. Tính tuổi 1 sinh viên 
+Viết chương trình nhập thông tin sinh viên (họ tên, năm sinh). Tính và xuất tuổi sinh viên này. 
+ 
+Bài 1.2: Thiết kế lớp Point có chức năng sau: 
+• Field: x, y 
+• Property: X, Y 
+• Constructor: default constructor khởi tạo giá trị ban đầu cho x và y bằng 0 
+• Method: Input và Output để nhập xuất toạ độ (x, y) 
+• Override hàm ToString() để xuất Point 
+• Phép toán: +, -, lấy âm (-) 
+Xây dựng các chức năng sau cho lớp Point: 
+(a) Khoảng cách giữa 2 điểm 
+Viết chương trình tính khoảng cách giữa 2 điểm A và B trong mặt phẳng tọa độ theo 2 cách: 
+• Phương thức thành viên 
+• Phương thức tĩnh 
+(b) Trung điểm của 2 điểm 
+Viết chương xác định trung điểm I của 2 điểm A và B theo 2 cách: 
+• Phương thức thành viên 
+• Phương thức tĩnh 
+ 
+Bài 1.3: Cho lớp Person dùng quản lý thông tin của một người. Dữ liệu thành viên của Person gồm có: id, 
+name, yob (năm sinh), yod (năm mất). Lớp Person có một số phương thức: 
+• Default Constructor, Copy constructor 
+• Input(), Output(): Nhập, xuất các dữ liệu của Person 
+• IsLiving(): Trả về false hay true tùy thuộc vào yod bằng 0 hay khác 0 
+Yêu cầu: Định nghĩa lớp Person. 
+ 
+Bài 1.4: Thiết lớp Phân số có chức năng: 
+• Constructor: Constructor Mặc nhiên, Constructor sao chép và một số constructor khác để khởi tạo dữ 
+liệu cho phân số 
+• Override hàm ToString() để xuất phân số 
+• Overload các toán tử:  
+o Một ngôi: +, - 
+o Hai ngôi: +, -, *, / 
+o So sánh: >, <, >=, <=, ==, != 
+===== PAGE 2 =====
+ Lập trình hướng đối tượng trong C#  - 2 - 
+ 
+© DNTAI 2024
+Bài 1.5: Xây dựng lớp Đơn thức thực hiện chức năng sau: 
+(a) Tính giá trị đơn  thức P(x) = 
+. nax  (a là số thực, n là số nguyên không âm) với giá trị x cho trước 
+(b) Đạo hàm đơn thức P(x) = 
+. nax  theo qui tắc đạo hàm: 
+1( ) '( ) . . nQ x P x a n x −==
+ 
+ 
+2. Thiết kế lớp nâng cao 
+• Lớp chứa mảng, List 
+• Indexer 
+• Thiết kế và xây dựng lớp phức tạp để giải một số bài toán 
+ 
+Lớp phức 
+Bài 2.1: Thiết kế lớp ArrayPoint có chức năng lưu trữ các Point: 
+• Field: Một ArrayList các Point 
+• Indexer cho phép truy cập Point thứ i của ArrayList 
+Bài 2.2: Một địa phương cần quản lý nhân khẩu nên đã thiết kế lớp PersonList dùng để quản lý nhiều người 
+khác nhau. Lớp PersonList có một số phương thức sau: 
+• Default constructor, Copy constructor 
+• Input(), Output(): Nhập, xuất các dữ liệu của PersonList 
+• Add(Person  x): Thêm một Person vào trong PersonList 
+• LivingPeople(): Trả về một PersonList những người còn sống 
+Yêu cầu: Định nghĩa lớp PersonList dữa trên lớp Person như mô tả ở trên. 
+ 
+Bài 2.3: Lớp chứa mảng 1 chiều 
+Xây dựng lớp dãy số chứa n số nguyên. Hãy viết các phương thức 
+a. Các loại Constructor 
+b. Indexer để truy cập phần tử thứ i trong dãy 
+c. Nhập / Xuất dãy số 
+d. Tìm các số chẵn 
+ 
+Bài 2.4: Lớp chứa mảng 2 chiều 
+Xây dựng lớp mảng 2 chiều có kích thước nxm. Hãy viết các phương thức 
+a. Các loại constructor 
+b. Indexer để truy cập phần tử tại (i, j) 
+c. Nhập / Xuất 
+d. Tìm các số nguyên tố trong mảng 
+ 
+Bài 2.3. Đa thức 
+Xây dựng lớp đa thức  gồm n+1 đơn thức 
+0 1 2
+0 1 2( ) . . . ... . n
+nP x a x a x a x a x= + + + +
+ 
+Viết các phương thức sau: 
+a. Các loại constructor 
+===== PAGE 3 =====
+ Lập trình hướng đối tượng trong C#  - 3 - 
+ 
+© DNTAI 2024
+b. Indexer để truy cập đơn thức thứ i 
+c. Nhập / Xuất 
+d. Tính giá trị của đa thức với giá trị x được nhập từ bàn phím 
+ 
+Bài 2.4. Dãy phân số 
+Xây dựng lớp chứa n phân số. Hãy tính tổng của n phân số đó. 
+ 
+Bài 2.5. Tính lương nhân viên 
+Một phòng ban có n nhân viên (họ tên, mức lương, số ngày vắng). Biết rằng một ngày vắng sẽ bị trừ 
+100.000 VNĐ. Hãy tổng lương của phòng ban. 
+ 
+3. Kế thừa và đa hình 
+• Thừa kế, đa hình 
+• Thiết kế và xây dựng lớp phức tạp để giải một số bài toán 
+Interface 
+Bài 3.1: Dùng phương thức tĩnh Array.Sort(…) để sắp xếp các đối tượng của một lớp nào đó 
+Bài 3.2: Viết phương thức sắp xếp một mảng tổng quát bằng interface (mô phỏng phương thức 
+Array.Sort(…)) 
+Delegte/Event 
+Bài 3.3: Viết phương thức sắp xếp một mảng tổng quát bằng delegate 
+Bài 3.4*: Xây dựng lớp ConsoleMenu tổng quát có chức năng sau: 
+Menu 
+1. Chức năng 1 
+2. Chức năng 2 
+0. Thoát chương trình 
+Thực hiện: x 
+Bạn thực hiện chức năng x 
+Áp dụng cho bài toán giải phương trình bậc 2, với thư viện hỗ trợ mở rộng qua sự kiện, kế thừa. 
+class PTBac2Console: ConsoleMenu 
+{ 
+} 
+hay 
+PTBac2Console app = new PTBac2Console(); 
+app.Choose += … 
+ 
+Kế thừa và đa hình 
+Bài 3.5: Tính lương nhân viên 
+Trong một công ty X, các nhân viên trong công thuộc một trong 2 bộ phân và gọi là: nhân viên kinh doanh 
+và nhân viên sản xuất. Thông tin cơ bản của nhân viên gồm: Mã nhân viên, họ tên.  
+===== PAGE 4 =====
+ Lập trình hướng đối tượng trong C#  - 4 - 
+ 
+© DNTAI 2024
+Cách tính lương cho nhân viên mỗi bộ phận như sau: 
+• Nhân viên kinh doanh: Ngoài mức lương cơ bản hàng tháng, nhân viên còn nhận được khoảng tiền 
+500.000 trên 1 hợp đồng được ký kết. 
+• Nhân viên sản xuất: Lương nhân viên sản xuất tính theo số lượng sản phẩm x 1000.  Nếu làm trên 
+3000 sản phẩm sẽ được thương thêm 5% lương.  
+Viết chương trình tính lương cho các nhân viên. 
+ 
+Bài 3.6. Tính điểm thí sinh  
+Phân tích, thiết kế và hiện thực theo hướng đối tượng chương trình tính điểm thi cho các thí sinh trong một 
+cuộc thi tin học, thông tin Cuộc thi: danh sách thí sinh. Cuộc thi giành cho hai đối tượng thí sinh:  
+Chuyên (giành cho những thí sinh chưa có giải trước đây) 
+Siêu cúp (giành cho những thí sinh đã đoạt giải trước đây).  
+Biết rằng các thí sinh phải làm 3 bài thi l ập trình, riêng đối tượng Chuyên làm thêm bài thi tiếng Anh (để 
+cộng điểm thêm), đối tượng Siêu cúp phải làm thêm bài cơ sở dữ liệu (CSDL). 
+• Thông tin chung của các thí sinh: sbd (s ố báo danh), hoten (họ tên), bai1, bai2, bai3 (điểm của bài 
+1, 2, 3), tongdiem (tổng điểm cuối cùng của từng thí sinh) 
+• Thông tin riêng cho đối tượng Chuyên: tiengAnh (điểm tiếng Anh) 
+• Thông tin riêng cho đối tượng Siêu cúp: csdl (điểm CSDL) 
+ 
+Kết quả được xét như sau: 
+• Thí sinh Chuyên: Tổng 3 bài thi lập trình + điểm thưởng tiếng Anh được xét như sau: 
+o 7≤tiengAnh≤8: cộng 1 điểm 
+o 9≤tiengAnh≤10: cộng 2 điểm 
+• Thí sinh Siêu cúp: Tổng điểm của 4 bài thi  
+Yêu cầu: Viết chương trình nhập thông tin cuộc thi và xuất tổng điểm thi của từng thí sinh. 
+--- Hết --- 

@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Bai15</StartupObject>
+    <StartupObject>Bai01</StartupObject>
   </PropertyGroup>
 
 </Project>

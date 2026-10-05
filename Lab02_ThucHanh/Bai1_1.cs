@@ -22,9 +22,9 @@ public class SinhVien
 
     public void Input()
     {
-        Console.Write("Họ tên: ");
+        Console.Write("Nhập Họ và tên: ");
         hoTen = Console.ReadLine() ?? "";
-        Console.Write("Năm sinh: ");
+        Console.Write("Nhập ngày tháng năm sinh: ");
         namSinh = int.Parse(Console.ReadLine()!);
     }
 
