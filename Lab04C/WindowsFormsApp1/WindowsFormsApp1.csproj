@@ -46,14 +46,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmBai1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmBai1.Designer.cs">
+      <DependentUpon>frmBai1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBai2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBai2.Designer.cs">
+      <DependentUpon>frmBai2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBai3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBai3.Designer.cs">
+      <DependentUpon>frmBai3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBai4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBai4.Designer.cs">
+      <DependentUpon>frmBai4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBai5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBai5.Designer.cs">
+      <DependentUpon>frmBai5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBaiTapVeNha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaiTapVeNha.Designer.cs">
+      <DependentUpon>frmBaiTapVeNha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNangCao1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNangCao1.Designer.cs">
+      <DependentUpon>frmNangCao1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBai1.resx">
+      <DependentUpon>frmBai1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBai2.resx">
+      <DependentUpon>frmBai2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBai3.resx">
+      <DependentUpon>frmBai3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBai4.resx">
+      <DependentUpon>frmBai4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBai5.resx">
+      <DependentUpon>frmBai5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaiTapVeNha.resx">
+      <DependentUpon>frmBaiTapVeNha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNangCao1.resx">
+      <DependentUpon>frmNangCao1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
